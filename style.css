@@ -24,13 +24,6 @@ header{
     overflow: hidden;
     margin-bottom: 20px;
 }
-header .logo{
-    color: #a01919;
-    font-size: 50px;
-    line-height: 150px;
-    float: left;
-    font-family: 'Amiri', serif;
-}
 header nav{
     float: right;
     line-height: 150px;
@@ -64,9 +57,27 @@ header nav{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-/* .navLogo{
-
-} */
+.navLogo{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.logo{
+    font-size: 90px;
+    line-height: 100px;
+    float: left;
+    font-family: 'Amiri', serif;
+}
+.span1{
+    color: #6b6b6b;
+    padding: 5px;
+    filter: drop-shadow(0 0 5px #6b6b6b);
+}
+.span2{
+    color: #bebebe;
+    padding: 5px;
+    filter: drop-shadow(0 0 5px #bebebe);
+}
 .servicios{
     background-color: transparent;
     display: grid;
