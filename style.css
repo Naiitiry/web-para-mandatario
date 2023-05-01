@@ -14,6 +14,7 @@ header{
     background:url(./imagenes/faros-potentes-vista-particulas-automoviles-lujo-modernos-estacionados-interiores-dia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     overflow: hidden;
 }
@@ -180,6 +181,9 @@ color: #fff;
     }
     .servicios{
         background-image: url(./imagenes/primer-plano-mano-llaves-coche.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -209,6 +213,12 @@ color: #fff;
     .logo{
         font-size: 50px;
         line-height: 60px;
+    }
+    .servicios{
+        background-image: url(./imagenes/primer-plano-mano-llaves-coche.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     #contacto{
         display: flex;
