@@ -5,10 +5,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
 .contenedor{
-    background: url(./imagenes/primer-plano-mano-llaves-coche.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
+
 }
 .wrapper{
     margin: auto;
@@ -22,7 +20,7 @@ header{
     background-size: cover;
     height: 100vh;
     overflow: hidden;
-    margin-bottom: 20px;
+
 }
 header nav{
     float: right;
@@ -79,7 +77,10 @@ header nav{
     filter: drop-shadow(0 0 5px #bebebe);
 }
 .servicios{
-    background-color: transparent;
+    background: url(./imagenes/primer-plano-mano-llaves-coche.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: grid;
     grid-template-columns: repeat(3,minmax(min-content,250px));
     place-content: center;
@@ -148,4 +149,29 @@ color: #fff;
 }
 .contacto2 h3{
     color: #fff;
+}
+
+@media screen and (max-width: 950px){
+    .navLogo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .span1{
+        color: #6b6b6b;
+        padding: 5px;
+        filter: drop-shadow(0 0 5px #6b6b6b);
+    }
+    .span2{
+        color: #bebebe;
+        padding: 5px;
+        filter: drop-shadow(0 0 5px #000000);
+    }
+    .servicios{
+        background-image: url(./imagenes/primer-plano-mano-llaves-coche.jpg);
+    }
+}
+
+@media screen and (max-width: 700px){
+    
 }
