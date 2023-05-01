@@ -187,3 +187,26 @@ color: #fff;
         align-content: flex-start;
     }
 }
+
+@media screen and (max-width: 380px){
+    .navLogo{
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .navegador{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    #contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto2{
+        text-align: center;
+    }
+}
